@@ -13,7 +13,9 @@ import { UniverSheetsPlugin } from "@univerjs/sheets";
 import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
+import { UniverChartPlugin } from "univer-chart-plugin";
 import { onBeforeUnmount, onMounted, ref, toRaw } from "vue";
+import 'univer-chart-plugin/lib/index.css';
 
 /**
  * 
@@ -78,6 +80,8 @@ const init = (data = {}) => {
   univer.registerPlugin(UniverSheetsPlugin);
   univer.registerPlugin(UniverSheetsUIPlugin);
   univer.registerPlugin(UniverSheetsFormulaPlugin);
+
+  univer.registerPlugin(UniverChartPlugin);
 
   // create workbook instance
   workbook.value = univer.createUnit<IWorkbookData, Workbook>(UniverInstanceType.UNIVER_SHEET, data)
