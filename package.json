@@ -1,7 +1,7 @@
 {
   "name": "using-univer-with-vue3",
-  "description": "The example project of using Univer with Vue 3",
-  "version": "0.2.2",
+  "description": "The example project of using Univer and @xxs3315/univer-chart-plugin with Vue 3",
+  "version": "0.2.3",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,17 +15,17 @@
     "pnpm": ">=7.0.0"
   },
   "dependencies": {
-    "@univerjs/core": "^0.2.2",
-    "@univerjs/design": "^0.2.2",
-    "@univerjs/docs": "^0.2.2",
-    "@univerjs/docs-ui": "^0.2.2",
-    "@univerjs/engine-formula": "^0.2.2",
-    "@univerjs/engine-render": "^0.2.2",
-    "@univerjs/sheets": "^0.2.2",
-    "@univerjs/sheets-formula": "^0.2.2",
-    "@univerjs/sheets-ui": "^0.2.2",
-    "@univerjs/ui": "^0.2.2",
-    "@xxs3315/univer-chart-plugin": "^0.2.2",
+    "@univerjs/core": "0.2.3",
+    "@univerjs/design": "0.2.3",
+    "@univerjs/docs": "0.2.3",
+    "@univerjs/docs-ui": "0.2.3",
+    "@univerjs/engine-formula": "0.2.3",
+    "@univerjs/engine-render": "0.2.3",
+    "@univerjs/sheets": "0.2.3",
+    "@univerjs/sheets-formula": "0.2.3",
+    "@univerjs/sheets-ui": "0.2.3",
+    "@univerjs/ui": "0.2.3",
+    "@xxs3315/univer-chart-plugin": "0.2.3",
     "vue": "^3.4.27"
   },
   "devDependencies": {
